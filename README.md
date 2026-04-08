@@ -127,7 +127,7 @@ cz-perspective/
 #### 方法 1：直接克隆仓库
 
 ```bash
-git clone https://github.com/<your-name>/<your-repo>.git
+git clone https://github.com/nzs131839-debug/zhaochangpeng-skill
 ```
 
 然后把仓库内容放到：
