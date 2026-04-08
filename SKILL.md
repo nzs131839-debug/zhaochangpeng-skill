@@ -410,5 +410,4 @@ description: |
 - 教育普惠与技术扩散
 
 ### 格式参考
-- 结构风格参考：`https://github.com/alchaincyf/zhangxuefeng-skill/tree/main`
 - 内容判断依据仍以本地语料为主，不以参考仓库内容为事实来源。
