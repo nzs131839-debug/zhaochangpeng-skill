@@ -1,6 +1,6 @@
 <div align="center">
 
-# 赵长鹏.skill
+# cz.skill
 
 > 幸运、韧性、用户保护、全球选择权。  
 > 不是语录收集，而是 **赵长鹏（CZ）的思维操作系统**。
@@ -99,20 +99,69 @@
 
 ## 安装
 
-如果你要把这个仓库当作一个独立 skill 使用，最核心的文件是根目录下的 `SKILL.md`。
+如果你要把这个仓库作为一个独立 skill 安装到 Claude Code，最核心的文件是根目录下的 `SKILL.md`。
 
-本地已经整理为与参考仓库一致的结构。
+### 安装路径
+
+把整个 skill 目录放到你的 Claude skills 目录下：
+
+```text
+~/.claude/skills/cz-perspective/
+```
+
+Windows 通常是：
+
+```text
+C:\Users\你的用户名\.claude\skills\cz-perspective\
+```
+
+安装完成后，确保最终结构至少是：
+
+```text
+cz-perspective/
+└── SKILL.md
+```
+
+### 安装方法
+
+#### 方法 1：直接克隆仓库
+
+```bash
+git clone https://github.com/<your-name>/<your-repo>.git
+```
+
+然后把仓库内容放到：
+
+```text
+~/.claude/skills/cz-perspective/
+```
+
+#### 方法 2：下载 ZIP 手动复制
+
+1. 下载本仓库 ZIP
+2. 解压
+3. 将目录重命名为 `cz-perspective`（如果需要）
+4. 复制到 `~/.claude/skills/` 下
+
+### 验证是否安装成功
+
+安装后，你可以直接这样触发：
+
+- 用 CZ 的视角看这个创业方向
+- 如果赵长鹏会怎么判断
+- 切换到 CZ 模式
+- 用币安创始人的角度分析这个产品
 
 ### 仓库核心文件
 
 - `SKILL.md`：可直接使用的 skill 主文件
 - `README.md`：展示页 / 发布页
-- `references/research/`：6 份研究拆解
-- `examples/demo-conversation.md`：对话示例
+- `references/research/`：研究拆解文件
+- `examples/`：演示示例
 
 ### 使用方式
 
-把 `SKILL.md` 放进你的 skill 体系后，即可用类似以下方式调用：
+安装后，即可用类似以下方式调用：
 
 - 让 CZ 视角分析一个创业选择
 - 让 CZ 视角评论某个产品决策
